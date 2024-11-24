@@ -258,9 +258,17 @@ li{
   margin: 0 auto;
   font-size: 30px;
   top: 10px;
-  animation: toTop 1s ease-out infinite;
+  animation: toTop 1.1s ease-out infinite;
 }
 
+@keyframes toTop {
+  from {
+    padding-bottom: 10px;
+  }
+  to {
+    padding-bottom: 20px;
+  }
+}
 /*banner*/
 .hero-section {
   background-color: #dbcc8f !important;
@@ -576,6 +584,162 @@ li{
   background-image: url("../images/product-3.png");
 }
 
+/*customer feedback*/
+.service {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.service:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.service:nth-child(3) {
+  background-color: #dbcc8f;
+}
+
+.service:nth-child(4) {
+  background-color: black;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  z-index: 0;
+  margin: 0 auto;
+}
+
+.icon .icon-before {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  top: 40%;
+  right: 0;
+  bottom: 0;
+  margin-left: -20px;
+  -webkit-transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #dbcc8f;
+  z-index: -1;
+}
+
+.service:nth-child(3) .icon .icon-before,
+.service:nth-child(4) .icon .icon-before {
+  background-color: #fff;
+}
+
+.icon .icon-after {
+  position: absolute;
+  top: -17px;
+  width: 75px;
+  height: 75px;
+  right: 0;
+  bottom: 0;
+  border-bottom: none;
+  border: 2px dotted #b3b3b3;
+  border-radius: 50%;
+  left: 0;
+  z-index: -1;
+}
+
+.service:nth-child(3) .icon .icon-after {
+  border: 2px dotted #fff;
+}
+
+.icon i {
+  font-size: 60px;
+}
+
+.service:nth-child(4) .icon i {
+  color: #dbcc8f;
+}
+
+.customer-container {
+  padding: 120px 0;
+}
+
+.customer-heading h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.customer-heading p {
+  line-height: 2;
+}
+
+.user-1 {
+  background-image: url("../../assets/images/person_1.jpg");
+}
+
+.user-2 {
+  background-image: url("../../assets/images/person_2.jpg");
+}
+
+.user-3 {
+  background-image: url("../../assets/images/person_3.jpg");
+}
+
+.user-img {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.quote-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  right: 0;
+  bottom: -10px;
+  background-color: white;
+  color: #dbcc8f;
+}
+
+.customer-feedback .line {
+  border-left: 1px solid #e6e6e6;
+  position: relative;
+  line-height: 2;
+}
+
+.customer-feedback .line span {
+  position: absolute;
+  width: 3px;
+  height: 30px;
+  top: 25%;
+  background-color: #dbcc8f;
+  left: -2px;
+}
+
+.customer-feedback .text span {
+  letter-spacing: 3px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.customer-feedback .text h1 {
+  color: #dbcc8f;
+}
+
+/*.custom1 .owl-dots .owl-dot.active span,*/
+/*.custom1 .owl-dots .owl-dot:hover span {*/
+/*  background: #dbcc8f;*/
+/*}*/
+
+/*.custom1 .owl-nav.disabled + .owl-dots {*/
+/*  margin-top: 60px;*/
+/*}*/
+
+/*.custom1 .owl-dots {*/
+/*  text-align: start;*/
+/*}*/
+
+/*.custom1 .owl-dots .owl-dot span {*/
+/*  margin: 5px 5px;*/
+/*}*/
+
 /*custom css*/
 .bg-mid-light {
   background-color: #f8f9fa ;
@@ -584,3 +748,4 @@ li{
 .bg-dark-yellow {
   background-color: var(--background);
 }
+

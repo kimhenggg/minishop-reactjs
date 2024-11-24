@@ -23,4 +23,38 @@ const sevice = [
     },
 ]
 
-export {sevice}
+const customerData = [
+    {
+        id: 1,
+        name: "John Heng",
+        position: "Web developer",
+        description: "",
+    },
+    {
+        id: 2,
+        name: "John Rith",
+        position: "Font-end Developer",
+        description: "",
+    }, {
+        id: 1,
+        name: "John Y",
+        position: "Back-end developer",
+        description: "",
+    }, {
+        id: 1,
+        name: "John Lin",
+        position: "UI/UX designer",
+        description: "",
+    }, {
+        id: 1,
+        name: "John Huy",
+        position: "Java developer",
+        description: "",
+    }, {
+        id: 1,
+        name: "John Wick",
+        position: "Designer",
+        description: "",
+    },
+]
+export {sevice,customerData}

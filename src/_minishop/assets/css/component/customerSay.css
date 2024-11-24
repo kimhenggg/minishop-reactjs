@@ -1,0 +1,16 @@
+.customer-say-slider .slick-dots {
+    bottom: 0; /* Remove default bottom positioning */
+    top: auto; /* Position at the top */
+    left: auto; /* Align to the start (left) */
+    justify-content: flex-start !important; /* Align dots to the start */
+    padding-left: 20px; /* Optional: Add some spacing */
+}
+
+.customer-say-slider .slick-dots li button:before {
+    font-size: 12px; /* Adjust the size of the dots */
+    color: #dbcc8f; /* Default color */
+}
+
+.customer-say-slider .slick-dots li.slick-active button:before {
+    color: #dbcc8f; /* Active dot color */
+}

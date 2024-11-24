@@ -12,8 +12,7 @@ const Footer = () => {
                         <div className="mouse position-absolute">
                             <a href="#" className="mouse-icon d-flex justify-content-center align-items-center">
                                 <div className="mouse-wheel d-flex flex-column justify-content-end align-items-center">
-                                    {/*<i className="fa-solid fa-chevron-up"></i>*/}
-                                    <URLSVG src={svgUrl("chevron-up.svg")}/>
+                                    <URLSVG src={svgUrl("chevron-up.svg")} width={30}/>
                                 </div>
                             </a>
                         </div>
@@ -24,20 +23,19 @@ const Footer = () => {
                                 <h2 className="fs-4 fw-bold mb-3">MINISHOP</h2>
                                 <p className="fs-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                                 <ul className="ps-0 d-flex align-items-center">
-                                    <li className="me-4" data-aos="fade-up" data-aos-duration="1000">
+                                    <li className="me-4" data-aos="fade-up">
                                         <a href="#">
-                                            <URLSVG src={svgUrl("instagram.svg")} width={30}/>
+                                            <URLSVG src={svgUrl("instagram.svg")} width={25}/>
                                         </a>
                                     </li>
-                                    <li className="me-4" data-aos="fade-up" data-aos-duration="1200"
-                                    >
+                                    <li className="me-4" data-aos="fade-up" >
                                         <a href="#">
-                                            <URLSVG src={svgUrl("twitter.svg")} width={30}/>
+                                            <URLSVG src={svgUrl("twitter.svg")} width={25}/>
                                         </a>
                                     </li>
-                                    <li className="me-4">
+                                    <li className="me-4" data-aos="fade-up">
                                         <a href="#" className="text-white">
-                                            <URLSVG src={svgUrl("facebook.svg")} width={30}/>
+                                            <URLSVG src={svgUrl("facebook.svg")} width={25}/>
                                         </a>
                                     </li>
                                 </ul>
@@ -54,7 +52,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <div className="col-md-3">
+                        <Col>
                             <div className="footer-menu text-white ps-3">
                                 <h2 className="fs-4 fw-bold">HELP</h2>
                                 <div className="d-flex">
@@ -70,8 +68,8 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-md-3">
+                        </Col>
+                        <Col>
                             <div className="footer-menu footer-q text-white px-3">
                                 <h2 className="fs-4 fw-bold">MENU</h2>
                                 <div className="">
@@ -94,22 +92,22 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </Col>
                     </Row>
-                    <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-md-6  ">
+                    <Row className="d-flex justify-content-center align-items-center">
+                        <Col>
                             <div className="copyright mt-5 text-center">
-                                <p>
+                                <p className="d-flex justify-content-center align-items-center gap-2">
                                     Copyright ©2024 All rights reserved | This template is made
                                     with
-                                    <span className="fs-1">
-                                        <i className="fa-solid fa-heart"></i>
+                                     <span>
+                                        <URLSVG src={svgUrl("heart.svg")} width={18}/>
                                      </span>
-                                    by <span className="name fs-4 fw-bold">SKH</span>
+                                     by <span className="name fs-4 fw-bold">SKH</span>
                                 </p>
                             </div>
-                        </div>
-                    </div>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
         </>
