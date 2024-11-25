@@ -1,10 +1,10 @@
 import React from 'react';
 import Banner from "./component/modal/Banner";
 import NewArrival from "./component/modal/NewArrival";
-import {Container} from "react-bootstrap";
 import Collection from "./component/modal/Collection";
 import ProductDeal from "./component/modal/ProductDeal";
-import CustomFeedback from "./component/modal/CustomFeedback";
+import CustomerFeedback from "./component/modal/CustomerFeedback";
+import FollowUs from "./component/modal/FollowUs";
 
 const HomePage = () => {
     return (
@@ -21,7 +21,11 @@ const HomePage = () => {
             </div>
             {/*Customer feedback*/}
             <div style={{padding: "120px 0"}}>
-                <CustomFeedback/>
+                <CustomerFeedback/>
+            </div>
+            {/*Follow us on instagram*/}
+            <div>
+                <FollowUs/>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import {URLSVG} from "../../../../../_minishop/helper/component/media/URLSVG";
-import {svgUrl} from "../../../../../_minishop/helper/AssetHelper";
+import {imageUrl, svgUrl} from "../../../../../_minishop/helper/AssetHelper";
 import React from "react";
+import URLIMAGE from "../../../../../_minishop/helper/component/media/URLIAMGE";
 
 const sevice = [
     {
@@ -57,4 +58,37 @@ const customerData = [
         description: "",
     },
 ]
-export {sevice,customerData}
+
+const followUsData = [
+    {
+        id: 1,
+        className: "img-popup-1",
+        image: <URLIMAGE src={imageUrl("gallery-1.jpg")} width="100%"/>,
+    },
+    {
+        id: 2,
+        className: "img-popup-2",
+        image: <URLIMAGE src={imageUrl("gallery-2.jpg")} width="100%"/>,
+    },
+    {
+        id: 3,
+        className: "img-popup-3",
+        image: <URLIMAGE src={imageUrl("gallery-3.jpg")} width="100%"/>,
+    },
+    {
+        id: 4,
+        className: "img-popup-4",
+        image: <URLIMAGE src={imageUrl("gallery-4.jpg")} width="100%"/>
+    },
+    {
+        id: 5,
+        className: "img-popup-5",
+        image:  <URLIMAGE src={imageUrl("gallery-5.jpg")} width="100%"/>
+    },
+    {
+        id: 6,
+        className: "img-popup-6",
+        image:  <URLIMAGE src={imageUrl("gallery-6.jpg")} width="100%"/>
+    },
+]
+export {sevice,customerData,followUsData}

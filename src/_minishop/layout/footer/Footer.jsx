@@ -74,20 +74,20 @@ const Footer = () => {
                                 <h2 className="fs-4 fw-bold">MENU</h2>
                                 <div className="">
                                     <ul className="mt-5">
-                                        <li className="mb-0">
-                                            <i className="fa-solid fa-location-dot fs-4 me-4"></i>
-                                            <p className="text">
+                                        <li className="d-flex align-items-start">
+                                            <URLSVG src={svgUrl("map-pin.svg")} width={18}/>
+                                            <p >
                                                 203 Fake St. Mountain View, San Francisco, California,
                                                 <br/> USA
                                             </p>
                                         </li>
-                                        <li className="mb-0">
-                                            <i className="fa-solid fa-phone fs-4 "></i>
-                                            <p className="text">+855 9886 847</p>
+                                        <li className="d-flex align-items-start">
+                                            <URLSVG src={svgUrl("telephone.svg")} width={18}/>
+                                            <p>+855 9886 847</p>
                                         </li>
-                                        <li className="">
-                                            <i className="fa-solid fa-envelope fs-4"></i>
-                                            <p className="text">salkimheng1212@gmail.com</p>
+                                        <li className="d-flex align-items-start">
+                                            <URLSVG src={svgUrl("email.svg")} width={18}/>
+                                            <p>salkimheng1212@gmail.com</p>
                                         </li>
                                     </ul>
                                 </div>

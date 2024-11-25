@@ -11,7 +11,7 @@ const ProductCard = () => {
             {shoes?.map(items=> {
                 const {id,image,price,title,discount,discountPrice,prevPrice} = items;
                 return (
-                    <Col lg={3} md={6} sm={6} xs={12} key={id}>
+                    <Col lg={3} md={6} sm={6} xs={12} key={id} className="g-5">
                         <div className="product-item p-0 position-relative w-100 ">
                             <div className="d-flex position-relative mb-3">
                                 {image}

@@ -24,8 +24,11 @@ a {
   color: inherit;
 }
 
+ol,
+ul,
 li{
   list-style-type: none;
+  padding: 0 !important;
 }
 
 /*header*/
@@ -498,7 +501,7 @@ li{
 
 .product-item .product-detail .button-wraper {
   top: -68px !important;
-  z-index: 999;
+  /*z-index: 999;*/
   opacity: 0;
   transition: 0.4s;
 }
@@ -739,6 +742,61 @@ li{
 /*.custom1 .owl-dots .owl-dot span {*/
 /*  margin: 5px 5px;*/
 /*}*/
+
+/*Follow us on instagram*/
+.media-heading h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.img-popup-1 {
+  background-image: url("../images/gallery-1.jpg");
+}
+.img-popup-2 {
+  background-image: url("../images/gallery-2.jpg");
+}
+.img-popup-3 {
+  background-image: url("../images/gallery-3.jpg");
+}
+.img-popup-4 {
+  background-image: url("../images/gallery-4.jpg");
+}
+.img-popup-5 {
+  background-image: url("../images/gallery-5.jpg");
+}
+.img-popup-6 {
+  background-image: url("../images/gallery-6.jpg");
+}
+
+.modal-content {
+  background-color: inherit;
+  border: none;
+}
+
+.modal-header {
+  z-index: 99;
+  right: 10px;
+  top: 0;
+}
+
+.gallery {
+  height: 270px;
+  width: 100%;
+}
+
+.gallery span {
+  width: 60px;
+  height: 60px;
+  background-color: var(--background);
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.gallery:hover span {
+  opacity: 1;
+}
+
 
 /*custom css*/
 .bg-mid-light {

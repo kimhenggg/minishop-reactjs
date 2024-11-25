@@ -4,13 +4,13 @@ import CustomerSay from "../custom/CustomerSay";
 import {URLSVG} from "../../../../../_minishop/helper/component/media/URLSVG";
 import {svgUrl} from "../../../../../_minishop/helper/AssetHelper";
 
-const CustomFeedback = () => {
+const CustomerFeedback = () => {
     return (
         <>
            <Container>
                <Row>
-                   <Col lg={5} md={10}>
-                       <div className="service d-flex justify-content-center align-items-center py-5 px-4" data-aos="fade-up">
+                   <Col lg={5} md={12}>
+                       <div className="service d-flex justify-content-start align-items-center py-5 px-4" data-aos="fade-up">
                            <div className="icon position-relative me-5">
                                <span className="icon-before"></span>
                                <URLSVG src={svgUrl("bag-icon.svg")}/>
@@ -63,7 +63,7 @@ const CustomFeedback = () => {
                            </div>
                        </div>
                    </Col>
-                   <Col md={7}>
+                   <Col lg={7} md={12}>
                        <CustomerSay/>
                    </Col>
                </Row>
@@ -72,4 +72,4 @@ const CustomFeedback = () => {
     );
 };
 
-export default CustomFeedback;
+export default CustomerFeedback;
