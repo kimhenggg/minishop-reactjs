@@ -36,7 +36,6 @@ const ProductCard = () => {
                                             <URLSVG src={svgUrl("star-icon.svg")} width={18}/>
                                             <URLSVG src={svgUrl("star-icon.svg")} width={18}/>
                                             <URLSVG src={svgUrl("star-icon.svg")} width={18}/>
-
                                         </div>
                                     </div>
                                     <h5 className="fw-bold my-3">{title}</h5>
