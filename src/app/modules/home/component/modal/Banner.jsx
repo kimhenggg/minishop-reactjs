@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import URLIAMGE from "../../../../../_minishop/helper/component/media/URLIAMGE";
 import {imageUrl} from "../../../../../_minishop/helper/AssetHelper";
 import {Col, Container, Row} from "react-bootstrap";
-import Service from "../custom/Service";
+import Service from "../../../../../_minishop/helper/component/custom/Service";
 const Banner = () => {
     const options ={
         dots: true,
@@ -91,7 +91,7 @@ const Banner = () => {
                     </div>
                 </Slider>
             </section>
-            <Service/>
+            {/*<Service/>*/}
         </>
     );
 };

@@ -9,7 +9,7 @@ const Header = () => {
         const handleScroll = () =>{
             if (window.scrollY > 130) {
                 setScrollNavbar(true);
-            }else {
+            }else if(window.scrollY < 140){
                 setScrollNavbar(false);
             }
         }

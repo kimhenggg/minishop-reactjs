@@ -1,8 +1,8 @@
 import React from 'react';
-import {URLSVG} from "../../../../../_minishop/helper/component/media/URLSVG";
-import {svgUrl} from "../../../../../_minishop/helper/AssetHelper";
+import {URLSVG} from "../media/URLSVG";
+import {svgUrl} from "../../AssetHelper";
 import {Col, Container, Row} from "react-bootstrap";
-import {sevice} from "../../core/dummy/homeData";
+import {sevice} from "../../../../app/modules/home/core/dummy/homeData";
 
 const Service = () => {
     return (

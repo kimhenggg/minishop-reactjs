@@ -56,4 +56,27 @@ const shoes = [
     },
 ]
 
-export {shoes}
+const customBanner = [
+    {
+        id: 1,
+        route: "/about",
+        title: "About",
+    },
+    {
+        id: 2,
+        route: "/blog",
+        title: "Blog",
+    },
+    {
+        id: 3,
+        route: "/contact",
+        title: "Contact us",
+    },
+    {
+        id: 4,
+        route: "/shop",
+        title: "Shop"
+    },
+]
+
+export {shoes,customBanner}

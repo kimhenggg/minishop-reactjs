@@ -1,8 +1,10 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 import ProductCard from "../../../../../_minishop/helper/component/custom/ProductCard";
 
 const NewArrival = () => {
+    // lg={3} md={6} sm={6} xs={12
+
     return (
         <Container className="py-5 ">
             <Row className="my-5">
@@ -13,7 +15,7 @@ const NewArrival = () => {
                         Vokalia and Consonantia;
                     </p>
                 </div>
-                <ProductCard/>
+                <ProductCard lg={3} md={6} sm={6} xs={12}/>
             </Row>
         </Container>
     );

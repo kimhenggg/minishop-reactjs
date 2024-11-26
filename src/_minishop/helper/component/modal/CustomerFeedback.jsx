@@ -1,8 +1,8 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import CustomerSay from "../custom/CustomerSay";
-import {URLSVG} from "../../../../../_minishop/helper/component/media/URLSVG";
-import {svgUrl} from "../../../../../_minishop/helper/AssetHelper";
+import {URLSVG} from "../media/URLSVG";
+import {svgUrl} from "../../AssetHelper";
 
 const CustomerFeedback = () => {
     return (
