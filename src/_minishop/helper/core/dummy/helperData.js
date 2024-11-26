@@ -77,6 +77,11 @@ const customBanner = [
         route: "/shop",
         title: "Shop"
     },
+    {
+        id: 5,
+        route: "/single-product",
+        title: "Single product"
+    }
 ]
 
 export {shoes,customBanner}

@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import URLIAMGE from "../../../../../_minishop/helper/component/media/URLIAMGE";
 import {imageUrl} from "../../../../../_minishop/helper/AssetHelper";
 import {Col, Container, Row} from "react-bootstrap";
-import Service from "../../../../../_minishop/helper/component/custom/Service";
+import {Link} from "react-router-dom";
 const Banner = () => {
     const options ={
         dots: true,
@@ -37,12 +37,9 @@ const Banner = () => {
                                                 paradisematic country.
                                             </p>
                                             <p className="mt-5">
-                                                <a
-                                                    href="#"
-                                                    className="btn-banner fs-4 text-white text-uppercase text-decoration-none"
-                                                >
+                                                <Link to="" className="btn-banner fs-4 text-white text-uppercase text-decoration-none">
                                                     discover now
-                                                </a>
+                                                </Link>
                                             </p>
                                         </div>
                                     </div>
@@ -71,12 +68,10 @@ const Banner = () => {
                                                 paradisematic country.
                                             </p>
                                             <p className="mt-5">
-                                                <a
-                                                    href="#"
-                                                    className="btn-banner fs-4 text-white text-uppercase text-decoration-none"
+                                                <Link to="" className="btn-banner fs-4 text-white text-uppercase text-decoration-none"
                                                 >
                                                     discover now
-                                                </a>
+                                                </Link>
                                             </p>
                                         </div>
                                     </div>

@@ -977,6 +977,148 @@ a {
   color: var(--background) ;
 }
 
+/*single product page*/
+.single-product-container {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.img-prod img {
+  box-shadow: inset 0px 0px 101px 21px rgba(0, 0, 0, 0.09);
+}
+
+.modal-img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #bbb;
+  border: none;
+}
+
+.rating-price span {
+  color: #bbb;
+}
+
+.single-prod-detail h1,
+.single-prod-detail h2 {
+  font-weight: 400;
+}
+.single-prod-detail p {
+  font-size: 16px !important;
+  line-height: 1.8;
+}
+
+.form-content {
+  width: 30%;
+  padding: 8px 10px;
+}
+
+.form-content:focus,
+.input-item input:focus {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.input-item input {
+  width: 35%;
+}
+
+.pay-btn {
+  padding: 15px 25px !important;
+  /*width: 50% !important;*/
+  background: black !important;
+}
+
+.buy-btn {
+  padding: 15px 25px !important;
+  background-color: var(--background) !important;
+  border: 1px solid var(--background) !important;
+}
+
+.pay-btn:hover {
+  background-color: var(--background) !important;
+}
+
+.buy-btn:hover {
+  background-color: white !important;
+  color: var(--background) !important;
+}
+
+.desc-heading a {
+  box-shadow: inset 0px 0px 101px 21px rgba(0, 0, 0, 0.09);
+  background-color: white;
+}
+
+.desc-heading a:hover {
+  transition: 0.2s;
+  background-color: var(--background);
+  color: white !important;
+  box-shadow: none;
+}
+
+.rotate-box {
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  top: 100%;
+  margin-top: -15px;
+  z-index: -1;
+  border-radius: 100% 0 0 0;
+}
+
+.rotate-box.active {
+  background-color: lightgray;
+}
+
+.tag-content {
+  display: none;
+}
+
+.tag-content.active {
+  display: flex;
+}
+
+.desc-heading:hover .rotate-box {
+  background-color: var(--background);
+  transition: 0.2s;
+}
+
+/*.img {*/
+/*  width: 80px;*/
+/*  height: 80px;*/
+/*  background-position: center;*/
+/*  background-size: cover;*/
+/*  background-repeat: no-repeat;*/
+/*  border-radius: 50%;*/
+/*}*/
+
+.img-wraper-1 {
+  background-image: url("../images/person_1.jpg");
+}
+.img-wraper-2 {
+  background-image: url("../images/person_2.jpg");
+}
+.img-wraper-3 {
+  background-image: url("../images/person_3.jpg");
+}
+
+.icon-share {
+  width: 32px;
+  height: 25px;
+  box-shadow: inset 0px 0px 101px 21px rgba(0, 0, 0, 0.09);
+}
+
+.tab-button {
+  flex: 1;
+  padding: 35px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  position: relative; /* For positioning the pseudo-element */
+  transition: background-color 0.3s ease, font-weight 0.3s ease;
+}
+
 
 
 
@@ -991,5 +1133,8 @@ a {
 
 .box-shadow {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.down-arrow{
+  margin-top: -13px;
 }
 

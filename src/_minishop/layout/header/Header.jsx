@@ -86,7 +86,7 @@ const Header = () => {
                                         </li>
                                         <li>
                                             <Link
-                                                to="/single_product"
+                                                to="/single-product"
                                                 className="dropdown-item fs-5 text-white mb-3"
                                             >
                                                 single product

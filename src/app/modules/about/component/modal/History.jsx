@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import {URLSVG} from "../../../../../_minishop/helper/component/media/URLSVG";
 import {svgUrl} from "../../../../../_minishop/helper/AssetHelper";
+import {Link} from "react-router-dom";
 
 const History = () => {
     return (
@@ -12,11 +13,11 @@ const History = () => {
                         <Col md={5}>
                             <div
                                 className="story-img px-3 position-relative d-flex flex-column justify-content-center align-items-center">
-                                <a href="#" className="position-absolude">
+                                <Link to="" className="position-absolude">
                                       <span className=" justify-content-center align-items-center d-flex">
                                           <URLSVG src={svgUrl("play-button.svg")} width={50}/>
                                       </span>
-                                </a>
+                                </Link>
                             </div>
                         </Col>
                         <Col md={7} className="d-flex flex-column justify-content-center align-items-center">
@@ -32,9 +33,9 @@ const History = () => {
                                     But nothing the copy said could convince her and so it didn’t
                                     take long until a few insidious Copy Writers ambushed her.
                                 </p>
-                                <a href="#" className="btn fs-5 text-white mt-3">
+                                <Link to="" className="btn fs-5 text-white mt-3">
                                     Shop now
-                                </a>
+                                </Link>
                             </div>
                         </Col>
                     </Row>

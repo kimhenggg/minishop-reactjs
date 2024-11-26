@@ -10,6 +10,7 @@ import HomePage from "./modules/home/HomePage";
 import AboutPage from "./modules/about/AboutPage";
 import ContactPage from "./modules/contact/ContactPage";
 import ShopPage from "./modules/shop/ShopPage";
+import SingleProductPage from "./modules/single-product/SingleProductPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                   <Route path="/about" element={<AboutPage/>}/>
                   <Route path="/contact" element={<ContactPage/>}/>
                   <Route path="/shop" element={<ShopPage/>}/>
+                  <Route path="/single-product" element={<SingleProductPage/>}/>
               </Route>
               <Route path="*" element={""}/>
           </Routes>
