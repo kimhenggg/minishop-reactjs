@@ -9,7 +9,7 @@ const Header = () => {
         const handleScroll = () =>{
             if (window.scrollY > 130) {
                 setScrollNavbar(true);
-            }else {
+            }else if(window.scrollY < 140){
                 setScrollNavbar(false);
             }
         }
@@ -86,7 +86,7 @@ const Header = () => {
                                         </li>
                                         <li>
                                             <Link
-                                                to="/single_product"
+                                                to="/single-product"
                                                 className="dropdown-item fs-5 text-white mb-3"
                                             >
                                                 single product
@@ -97,7 +97,7 @@ const Header = () => {
                                                 to="/cart"
                                                 className="dropdown-item fs-5 text-white mb-3"
                                             >
-                                                card
+                                                cart
                                             </Link>
                                         </li>
                                         <li>

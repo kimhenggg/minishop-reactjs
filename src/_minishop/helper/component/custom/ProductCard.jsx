@@ -1,17 +1,17 @@
 import React from 'react';
-import {Col, Row} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 import {shoes} from "../../core/dummy/helperData";
 import {Link} from "react-router-dom";
 import {URLSVG} from "../media/URLSVG";
 import {svgUrl} from "../../AssetHelper";
 
-const ProductCard = () => {
+const ProductCard = ({lg,md,sm,xs}) => {
     return (
         <>
             {shoes?.map(items=> {
                 const {id,image,price,title,discount,discountPrice,prevPrice} = items;
                 return (
-                    <Col lg={3} md={6} sm={6} xs={12} key={id} className="g-5">
+                    <Col lg={lg} md={md} sm={sm} xs={xs} key={id} className="g-5">
                         <div className="product-item p-0 position-relative w-100 ">
                             <div className="d-flex position-relative mb-3">
                                 {image}

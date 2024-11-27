@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Col, Container, Modal, Row } from "react-bootstrap";
-import { followUsData } from "../../core/dummy/homeData";
+import { followUsData } from "../../../../app/modules/home/core/dummy/homeData";
 import { Link } from "react-router-dom";
-import {URLSVG} from "../../../../../_minishop/helper/component/media/URLSVG";
-import {svgUrl} from "../../../../../_minishop/helper/AssetHelper";
+import {URLSVG} from "../media/URLSVG";
+import {svgUrl} from "../../AssetHelper";
 
 const FollowUs = () => {
     const [modalShow, setModalShow] = useState(false);
@@ -22,7 +22,7 @@ const FollowUs = () => {
     return (
         <div>
             <Container>
-                <div className="row text-center d-flex justify-content-center">
+                <div className="row text-center d-flex justify-content-center my-5">
                     <div className="col-md-8 text-center media-heading">
                         <h1 className="mb-5">Follow Us On Instagram</h1>
                         <p className="fs-4">

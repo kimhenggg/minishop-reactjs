@@ -1,8 +1,7 @@
 import React from 'react';
-import {URLSVG} from "../../../../../_minishop/helper/component/media/URLSVG";
-import {svgUrl} from "../../../../../_minishop/helper/AssetHelper";
+
 import {Col, Container, Row} from "react-bootstrap";
-import {sevice} from "../../core/dummy/homeData";
+import {sevice} from "../../../../app/modules/home/core/dummy/homeData";
 
 const Service = () => {
     return (
@@ -10,7 +9,7 @@ const Service = () => {
             <Container>
                 <Row>
                     {sevice.map(items => {
-                        const {id,icon,description,title} = items
+                        const {id,icon,title} = items
                         return (
                             <Col  md={4} data-aos="fade-up" data-aos-duration="300" key={id}>
                                 <div className="text-center p-4 card-contect">

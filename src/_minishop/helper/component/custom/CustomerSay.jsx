@@ -1,7 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
-import { customerData } from "../../core/dummy/homeData";
-import "../../../../../_minishop/assets/css/component/customerSay.css"
+import { customerData } from "../../../../app/modules/home/core/dummy/homeData";
+import "../../../assets/css/component/customerSay.css"
 const CustomerSay = () => {
     const options = {
         dots: true,

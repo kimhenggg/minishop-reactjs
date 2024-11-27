@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import {URLSVG} from "../../helper/component/media/URLSVG";
 import {svgUrl} from "../../helper/AssetHelper";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -10,11 +11,11 @@ const Footer = () => {
                 <Container>
                     <Row className="position-relative">
                         <div className="mouse position-absolute">
-                            <a href="#" className="mouse-icon d-flex justify-content-center align-items-center">
+                            <Link to="" className="mouse-icon d-flex justify-content-center align-items-center">
                                 <div className="mouse-wheel d-flex flex-column justify-content-end align-items-center">
                                     <URLSVG src={svgUrl("chevron-up.svg")} width={30}/>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </Row>
                     <Row className="mb-5">
