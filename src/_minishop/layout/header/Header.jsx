@@ -97,7 +97,7 @@ const Header = () => {
                                                 to="/cart"
                                                 className="dropdown-item fs-5 text-white mb-3"
                                             >
-                                                card
+                                                cart
                                             </Link>
                                         </li>
                                         <li>
