@@ -12,6 +12,7 @@ import ContactPage from "./modules/contact/ContactPage";
 import ShopPage from "./modules/shop/ShopPage";
 import SingleProductPage from "./modules/single-product/SingleProductPage";
 import CartPage from "./modules/cart/CartPage";
+import CheckoutPage from "./modules/checkout/CheckoutPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                   <Route path="/shop" element={<ShopPage/>}/>
                   <Route path="/single-product" element={<SingleProductPage/>}/>
                   <Route path="/cart" element={<CartPage/>}/>
+                  <Route path="/checkout" element={<CheckoutPage/>}/>
               </Route>
               <Route path="*" element={""}/>
           </Routes>

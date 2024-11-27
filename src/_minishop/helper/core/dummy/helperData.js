@@ -86,6 +86,11 @@ const customBanner = [
         id: 6,
         route: "/cart",
         title: "My wishlist"
+    },
+    {
+        id: 7,
+        route: "/checkout",
+        title: "Checkout",
     }
 ]
 
